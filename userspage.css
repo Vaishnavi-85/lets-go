@@ -1,0 +1,260 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+    font-family: 'Helvetica';
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    
+   background-color: #1C39BB; 
+   color: BLACK; 
+   padding: 20px;
+   text-align: center; 
+   position: sticky; 
+   top: 0; 
+
+   z-index: 1000;
+
+}
+
+.btn {
+  background-color: #002a91;
+  color: white;
+  border: none;
+  padding: 5px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+/* Outlined Button */
+.btn-outline {
+  background-color: transparent;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+}
+
+.btn-outline:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.sub-header {
+    
+    background-color: #73C2FB; 
+    color: black; 
+
+    padding: 10px; 
+     position: sticky; 
+    top: 80px;
+    text-align: center; 
+    justify-content: center;
+    z-index: 1000; 
+
+   
+}
+.footer {
+       display: flex;
+    height: 100px;
+    background-color: black; 
+    color: white; 
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+  position:absolute;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+     justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+     padding: 20px;
+ margin-top:-30px;
+}
+
+
+
+nav ul li a {
+    text-align: center; 
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+     margin-top:-20px;
+}
+
+
+
+nav ul li a:hover{
+    color:black;
+    font-weight: bold;
+}
+.hero {
+  background-image: url('https://i.imgur.com/8QtonUG.png');
+  position: relative;
+  background-position: center; 
+  padding: 600px 200px;
+  text-align:center;
+   width: 100%;
+   height : 40%;
+max-height: 1700px;
+}
+.hero h1{ 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    text-align:center;
+    justify-content: center;
+    font-size:70px;
+    color:white;
+    position: absolute;
+}
+
+.About h1{
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+    font-size: 80px;
+}
+.About h3{
+  margin-top: -270px;
+  font-size: 50px;	
+}
+.row{
+width:100%;
+  margin-top: -100px;
+  display: flex; 
+  justify-content: center;
+  gap:60px;
+}
+
+.fac-col{
+    margin-top: 550px;
+   flex-basis: 31%;
+   background: white;
+   border-radius:8px;
+ font-size:20px;
+ transition: 0.5s;
+padding: 30px 10px 30px 10px; 
+
+}
+.fac-col:hover{
+ 
+ background:#Ffd700;
+ opacity: 1;
+}
+a {
+
+     position: relative; 
+     top: 10px;  
+     color: blue;
+    
+     text-decoration: none;
+    
+     transition: color 0.3s,
+     text-decoration 0.3s;
+
+     font-size:17px;
+}
+
+
+a:hover {
+    
+color: BLACK;
+    
+bottom:49%;
+opacity: 10;
+}
+.help{
+width: 100%; 
+min-width:500px; 
+text-align: center; 
+display: flex; 
+ align-items: center; 
+background: white; 
+transition: 0.5s;
+ height:100px;
+ border-radius:10px;
+ margin: 490px auto;
+}
+.help:hover{
+     background: linear-gradient(to right, #184ed6, #002a91);
+   color: white;
+}
+.help h1{
+ color :black;
+ top:1400px;
+ display: flex; 
+margin-bottom: 100px;
+}
+.help h2{
+align-items: center;
+flex: 1 0 300px;
+  color :black;
+  text-align: center;
+}
+.help h2:hover{
+   color: white;
+}
+footer {
+    
+       background-color: #333;  
+         color: white;
+
+    text-align: center;
+    padding: 40px;
+    position: relative; 
+
+    bottom: 0; 
+
+    width: 100%; 
+
+}
+@media (max-width: 768px) {
+    
+  .hero h1 {
+        
+    font-size: 8vw; 
+ }
+    
+  
+ .About h1{
+   font-size:5vw;
+} 
+.About h3 {
+       
+ font-size: 3vw; 
+   }
+    
+    
+.fac-col {
+
+        flex: 1 1 100%; 
+   }
+
+}

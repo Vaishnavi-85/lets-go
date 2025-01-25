@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; 
+ font-family: "Poppins", sans-serif;
+  width:100%;
+  background:linear-gradient(to right,#000077,#00c3ff) ;
+}
+
+.content {
+  height: 100%;
+width:100%;
+align-items:center;
+  justify-content: center; 
+  text-align: center;
+  padding-top: 100px;
+  background:linear-gradient(to right,#000077,#00c3ff) ;
+}
+.content h1{
+font-size:70px;
+color: white;
+}
+.content p{
+font-size:45px;
+color: white;
+}
+.btn{
+display:inline-block;
+text-decoration:none;
+color: white;
+border: 1px solid white;
+padding:12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor:pointer; 
+font-weight: bold;
+}
+.btn:hover{
+background:white;;
+color:black;
+transition:0.5s;
+}
